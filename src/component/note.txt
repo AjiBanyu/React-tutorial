@@ -1,0 +1,2 @@
+folder component
+- kita menggunakan component stateless component
