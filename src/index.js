@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './component/HelloComponent';
-import StateFullComponent from './container/StateFullComponent';
-
+import Home from './container/Home/Home';
 // contoh membuat component helloWorld
 // const HelloWorld = () => {
 //   return <p>Hello World</p>
@@ -37,7 +34,7 @@ import StateFullComponent from './container/StateFullComponent';
 // }
 
 ReactDOM.render(
-  <HelloComponent />, document.getElementById('root')
+  <Home />, document.getElementById('root')
 );
 
 
