@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import YouTubeComp from '../../component/YouTubeComp/YouTubeComp';
+import Product from '../Product/Product';
 
 class Home extends Component {
     render() {
@@ -10,7 +11,7 @@ class Home extends Component {
         return (
             // mengambil isi file component yang sudah diimport youtubecomp
             <div>
-                <YouTubeComp
+                {/* <YouTubeComp
                     time="7.00"
                     title="Tutorial React Js - bagian 1" />
                 <YouTubeComp
@@ -25,7 +26,9 @@ class Home extends Component {
                     time="20.00"
                     title="Tutorial React Js - bagian 4"
                 />
-                <YouTubeComp />
+                <YouTubeComp /> */}
+
+                <Product/>
             </div>
         )
     }

@@ -1,0 +1,79 @@
+.header {
+  background: #68c93e;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.troley {
+  position: relative;
+}
+
+.troley img {
+  width: 50px;
+}
+
+.count {
+  position: absolute;
+  background: #2d3c8d;
+  /* border: 1px solid; */
+  height: 10px;
+  min-width: 10px;
+  text-align: center;
+  line-height: 10px;
+  padding: 10px;
+  bottom: 10px;
+  font-size: 11px;
+  left: -13px;
+  border-radius: 50%;
+  color: white;
+}
+
+.card {
+  border: 1px solid rgb(0, 0, 0, 0.233);
+  width: 300px;
+  height: 100%;
+  margin: 40px auto;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19); /* box-shadow : [horizontal offset] [vertikal offset] [blur radius] [color]; */
+}
+
+.card .img-thumb-prod {
+  border: 1px solid;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.card .counter {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  height: 50px;
+  justify-content: center;
+}
+
+button {
+  background: #2d3c8d;
+  border-radius: 5px;
+  padding: 5px;
+  /* width: 50px; */
+  /* height: 50px; */
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: white;
+}
+
+input {
+  text-align: center;
+}
